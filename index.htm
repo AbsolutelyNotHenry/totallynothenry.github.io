@@ -55,10 +55,11 @@
     // roblox
     ['r', { name: 'roblox', suggestions: ['r/friends', 'r/catalog'], searchTemplate: '/search?q={}', url: 'https://www.roblox.com' }],
     ['r/friends', { url: 'https://www.roblox.com/users/friends#!/friends' }],
-    ['r/catalog', { url: 'https://www.roblox.com/games/start?placeId=7041939546' }],
+    ['r/catalog', { url: 'https://www.roblox.com/share?code=bd3d120995d01a4f8496de92bc22efa3&type=Server' }],
 
     // youtube
-    ['y', { name: 'youtube', searchTemplate: '/results?search_query={}', url: 'https://www.youtube.com' }],
+    ['y', { name: 'youtube', suggestions: ['y/music'], searchTemplate: '/results?search_query={}', url: 'https://www.youtube.com' }],
+    ['y/music', { url: 'https://music.youtube.com' }],
 
     // twitter
     ['t', { name: 'twitter', suggestions: [], searchTemplate: '/search?q={}', url: 'https://x.com' }],
@@ -564,7 +565,7 @@
 </head><body><commands-component></commands-component>
 <search-component></search-component>
 
-<div class="clock" id="clock">12:49</div>
+<div class="clock" id="clock">18:51</div>
 
 <style>
   .clock {
@@ -591,7 +592,7 @@
   setInterval(updateClock, 1000);
 </script>
 
-<div class="weather" id="weather"><span class="weather-icon">󰅟</span> 26°</div>
+<div class="weather" id="weather"><span class="weather-icon">󰅟</span> 28°</div>
 
 <style>
   @font-face {
